@@ -1,0 +1,329 @@
+body {
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* The first block */
+.menutop{
+  background-color: #2c3e50;
+  width: 100%;
+  height: 75px;
+}
+
+.top {
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.75em;
+  color: white;
+  font-family: segoe ui;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+li {
+  padding: 1rem 0rem;
+  margin-right: 2rem;
+}
+
+li a {
+  color: white;
+  font-size:21px;
+  font-family: segoe ui;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+/* End of the first block */
+
+/* The second block */
+.frame {
+  background-color: #1abc9c;
+}
+
+.frametwo {
+  flex-direction: column;
+  padding: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.frame_title {
+  font-size: 4rem;
+  margin: 2rem 0 1.5rem;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.line {
+  width: 6rem;
+  height: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: white;
+  margin: 0rem 1rem;
+}
+
+.frame_description {
+  font-size: 1.2rem;
+  margin: 1.5rem 0rem;
+  font-family: segoe ui;
+}
+/* End of second block */
+
+/* The third block */
+.portfolio {
+  background-color: white;
+}
+
+.portfolio_frame {
+  flex-direction: column;
+  padding: 5rem 0rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.portfolio_title {
+  font-size: 3rem;
+  margin: 0rem 0rem 1rem;
+}
+
+.portfolio_frame .line {
+  background-color: #2c3e50;
+}
+
+.portfolio_image {
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.portfolio_image img {
+  width: 30%;
+  margin: 1.5%;
+  border-radius: 0.5rem ;
+}
+/* End of the third block */
+
+/* The fourth block */
+.about {
+  background-color: #1abc9c;
+}
+
+.about_frame {
+  flex-direction: column;
+  padding: 5rem 0rem;
+  color: white;
+}
+
+.about_title {
+  font-size: 3rem;
+  margin: 0rem 0rem 1rem;
+}
+
+.about_description {
+  display: flex;
+  margin: 0rem 1rem;
+}
+
+.about_description_col_left {
+  line-height: 1.6;
+  font-size: 1.5rem;
+  font-family: segoe ui;
+  margin-left: 10rem;
+}
+
+.about_description_col_right {
+  line-height: 1.6;
+  font-size: 1.5rem;
+  font-family: segoe ui;
+  margin: 2rem 5rem;
+}
+
+.button_download {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border-color: white;
+  box-shadow: none;
+  border-style: solid;
+  outline: none;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.download_icon {
+  margin-right: 1rem;
+}
+/* End of fourth block */
+
+/* The fifth block */
+.contact {
+  background-color: white;
+}
+
+.contact_frame {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.contact_title {
+  font-size: 3rem;
+  align-self: center;
+  margin: 0rem 0rem 1rem;
+}
+
+.contact_frame .line {
+  background-color: #374049;
+}
+
+.contact_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.contact_control {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.control_label {
+  text-align: left;
+  color: #2c3e50;
+  font-size: 20px;
+  color: rgb(134, 133, 133);
+  font-family: segoe ui;
+  margin-bottom: 0.5rem;
+}
+
+.control_input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #d0d3d8;
+  padding: 0.75rem 0rem;
+  font-size: 1rem;
+  color: #d0d3d8;
+}
+.control_inputt {
+  width: 100%;
+  height: 70px;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #d0d3d8;
+  padding: 0.75rem 0rem;
+  font-size: 1rem;
+  color: #d0d3d8;
+}
+
+.button_send {
+  width: 90px;
+  height: 70px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 1rem;
+  background-color: #1abc9c;
+  border-color: white;
+  border-style: solid;
+}
+@media (min-width: 1199px) {
+  .container {
+    max-width: 700px;
+  }
+}
+/* End of the fifth block */
+
+/* The sixth block */
+.infor {
+  background-color: #2c3e50;
+}
+
+.infor_frame {
+  flex-wrap: wrap;
+  padding: 0;
+  color: white;
+}
+
+.infor_content {
+  width: 30%;
+  margin: 1.5%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.infor_content h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: segoe ui;
+  font-weight: bold;
+}
+
+.infor_content i {
+  display: flex;
+}
+
+.infor_content .word1 {
+  font-size: 1rem;
+  margin: 12px 80px 9px 101px;
+  font-family: segoe ui;
+}
+.infor_content .word2 {
+  font-size: 1rem;
+  margin: 12px 40px 1px 30px;
+  font-family: segoe ui;
+}
+
+.infor_content a {
+  color: #1abc9c;
+  text-decoration: underline;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* End of the sixth block */
+
+/* The last block */
+.copyright{
+  background-color: #1a252f;
+}
+
+.copyright_frame{
+  text-align: center;
+  color: #d0d3d8;
+  font-size: 13px;
+}
+/* End of last block */
+
+.container {
+  flex: 1;
+  max-width: 1140px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+@media (min-width: 1199px) {
+  .contact_frame {
+    max-width: 700px;
+  }
+}
